@@ -8,9 +8,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibXlhc2NobWl0eiIsImEiOiJjbDlzMmtnbTAwN25nM3RzN
 function App() {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-70.9);
-  const [lat, setLat] = useState(42.35);
-  const [zoom, setZoom] = useState(6);
+  const [lng, setLng] = useState(-122.33);
+  const [lat, setLat] = useState(47.61);
+  const [zoom, setZoom] = useState(9);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
